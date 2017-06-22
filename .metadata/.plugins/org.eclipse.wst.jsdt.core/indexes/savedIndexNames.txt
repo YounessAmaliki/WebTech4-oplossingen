@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+C:\Users\Majid0202\Desktop\WebTech4-oplossingen\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2382327262.index
+1353354122.index
+1820265619.index
+426308215.index
+3595136035.index
+3262995314.index
