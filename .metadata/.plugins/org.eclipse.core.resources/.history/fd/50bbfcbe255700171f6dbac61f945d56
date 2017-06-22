@@ -1,0 +1,22 @@
+package edu.ap.jaxrs;
+
+import java.io.*;
+import javax.ws.rs.*;
+import javax.json.*;
+import com.mongodb.*;
+import com.mongodb.jee.*;
+
+
+
+@Path("/")
+	public class QuoteResource {
+
+	  	@GET
+	  	@Path("/findOne")
+	  	@Produces(MediaType.APPLICATION_JSON)
+	  	public DBObject findOne(){
+	  	  DB db = mongo.getDB("ecommerce");
+	  	  DBCollection col = db.getCollection("products");
+  	  return col.findOne();            
+    }
+	}
