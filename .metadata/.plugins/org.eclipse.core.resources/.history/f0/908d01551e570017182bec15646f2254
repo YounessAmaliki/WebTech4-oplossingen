@@ -3,10 +3,6 @@ package edu.ap.jaxrs;
 import java.io.*;
 import javax.ws.rs.*;
 import javax.json.*;
-import com.mongodb.*;
-import com.mongodb.jee.*;
-
-
 
 @Path("/quotes")
 public class QuoteResource {
